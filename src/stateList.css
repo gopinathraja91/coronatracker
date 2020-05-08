@@ -1,0 +1,62 @@
+.co-totalList{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.disableFlag{
+    display: none;
+}
+.selected{
+    display: block;
+}
+td,tr,th{
+    border: 1px solid grey;
+    width: 106.5px;
+}
+td:not(:first-child){
+    text-align: right;
+}
+td:first-child,th:first-child{
+    width: 231px;
+}
+.co-state-status{
+    display: inline;
+}
+.co-state-status p {
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 1px 1px;
+    background: #edf1f3;
+    border-radius: 2px;
+    width: 100px;
+}
+.co-state-status p:first-child{
+    width: 266px;
+}
+.co-state-status p:first-child span{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 250px;
+}
+.co-state-status p:not(:first-child){
+    text-align: right;
+}
+.co-stateList.selected{
+    margin-left: 25px;
+}
+.co-nextArrow{
+    text-decoration: none;
+}
+.co-arrowField{
+    display: inline-block;
+}
+.co-stateTable-header{
+    margin-left: 10px;
+}
+.co-stateTable-header p{
+    text-align: center !important;
+}
+.dayStatus{
+    float: left;
+    margin-left: 10px;
+    color: red;
+}

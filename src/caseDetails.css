@@ -1,0 +1,10 @@
+.co-total-affected{
+    display: flex;
+    flex-wrap: wrap;
+}
+.co-total-affected>div{
+    width:100%;
+}
+.co-total-cases{
+    text-align: center;
+}
